@@ -1,14 +1,13 @@
 ---
-dir: pages
-title: About
-icon: Envelope
+dir: games
+title: 'Diablo 4'
 ---
 
 <script>
-  import { Img, Heading, P } from 'flowbite-svelte'
+  import { Img, Heading, P } from 'flowbite-svelte';
 </script>
 
-<Img src="/images/snipe.png" alt="sample 1" size="max-w-lg" alignment="mx-auto" />
+<Img src="/images/mother.png" alt="sample 1" size="max-w-lg" alignment="mx-auto" />
 
 <Heading class="p-8" tag="h1" customSize="text-3xl">{title}</Heading>
 

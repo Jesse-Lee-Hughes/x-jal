@@ -72,7 +72,7 @@
 	<NavBrand href="/" class="lg:ml-64">
 		<Cog />
 		<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white pl-4">
-			My Website
+			X-JAL
 		</span>
 	</NavBrand>
 	<NavHamburger on:click={toggle} />
@@ -119,6 +119,17 @@
 							{spanClass}
 							on:click={toggleSide}
 							active={activeUrl === `/team/${path}`}
+						/>
+					{/each}
+				</SidebarDropdownWrapper>
+				<SidebarDropdownWrapper label="Games">
+					{#each data.games as { meta, path }}
+						<SidebarItem
+							label={meta.title}
+							href={`/games/${path}`}
+							{spanClass}
+							on:click={toggleSide}
+							active={activeUrl === `/games/${path}`}
 						/>
 					{/each}
 				</SidebarDropdownWrapper>
