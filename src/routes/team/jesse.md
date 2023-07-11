@@ -4,19 +4,60 @@ title: 'Jesse'
 ---
 
 <script>
-  import { Img, Heading, P } from 'flowbite-svelte';
+  import { Img, Heading, P, Blockquote } from 'flowbite-svelte';
 </script>
 
-<Img src="/images/war.png" alt="sample 1" size="max-w-lg" alignment="mx-auto" />
-
 <Heading class="p-8" tag="h1" customSize="text-3xl">{title}</Heading>
+<Blockquote class="px-8 py-4">Stay a while.. and listen.</Blockquote>
 
 <P class="px-8 py-4">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet cursus sit amet dictum sit. Quis enim lobortis scelerisque fermentum dui faucibus in. Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. Ipsum dolor sit amet consectetur adipiscing elit. Euismod nisi porta lorem mollis aliquam ut porttitor. Tortor consequat id porta nibh. Tortor condimentum lacinia quis vel eros donec ac odio. Elementum sagittis vitae et leo duis ut diam quam nulla. Vel turpis nunc eget lorem.
+I've been an avid video gamer from an early age. Starting with Super Mario and Tetris on Nintendo's Gameboy. From this I graduated onto PC gameing, where I fell in love with Heroes of Might & Magic 2 & 3, Civilzations and Terminal Velocity
 </P>
-<P class="px-8 py-4">
-Aliquet porttitor lacus luctus accumsan. Ac orci phasellus egestas tellus rutrum tellus. Non odio euismod lacinia at quis risus sed. Nam libero justo laoreet sit amet cursus sit amet. Arcu odio ut sem nulla pharetra diam sit amet nisl. Vulputate mi sit amet mauris commodo quis imperdiet. Malesuada nunc vel risus commodo viverra. Eget nulla facilisi etiam dignissim diam quis enim. Hac habitasse platea dictumst quisque. Ultrices gravida dictum fusce ut placerat orci nulla pellentesque dignissim.
-</P>
-<P class="px-8 py-4">
-Nec feugiat in fermentum posuere urna nec tincidunt praesent. Nulla pharetra diam sit amet nisl suscipit adipiscing bibendum est. Eu turpis egestas pretium aenean pharetra magna. Ultricies lacus sed turpis tincidunt id. Urna nec tincidunt praesent semper feugiat nibh. Aliquam etiam erat velit scelerisque in dictum non consectetur. Suspendisse in est ante in nibh mauris cursus mattis molestie. Facilisi nullam vehicula ipsum a. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Libero justo laoreet sit amet cursus sit amet.
-</P>
+<div class="container mx-auto px-8 py-4 lg:px-32 lg:pt-24">
+  <div class="-m-1 flex flex-wrap md:-m-2">
+    <div class="flex w-1/2 flex-wrap">
+      <div class="w-1/2 p-1 md:p-2">
+        <img
+          alt="gallery"
+          class="block h-full w-full rounded-lg object-cover object-center"
+          src="/images/tides_of_darkness.jpg"/>
+      </div>
+      <div class="w-1/2 p-1 md:p-2">
+        <img
+          alt="terminal velocity video game by 3D Realms"
+          class="block h-full w-full rounded-lg object-cover object-center"
+          src="/images/terminal_velocity.jpg" />
+      </div>
+      <div class="w-full p-1 md:p-2">
+        <img
+          alt="gallery"
+          class="block h-full w-full rounded-lg object-cover object-center"
+          src="/images/hom3.jpeg" />
+      </div>
+    </div>
+    <div class="flex w-1/2 flex-wrap">
+      <div class="w-full p-1 md:p-2">
+        <img
+          alt="gallery"
+          class="block h-full w-full rounded-lg object-cover object-center"
+          src="/images/diablo1.jpg" />
+      </div>
+      <div class="w-1/2 p-1 md:p-2">
+        <img
+          alt="gallery"
+          class="block h-full w-full rounded-lg object-cover object-center"
+          src="/images/monkey_island.jpeg" />
+      </div>
+      <div class="w-1/2 p-1 md:p-2">
+        <img
+          alt="gallery"
+          class="block h-full w-full rounded-lg object-cover object-center"
+          src="/images/mario.jpeg" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+

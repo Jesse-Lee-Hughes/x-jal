@@ -1,6 +1,7 @@
 <script>
     import { Img, Heading, P, Blockquote } from 'flowbite-svelte';
-</script>
+  </script>
+  
   
 <Img src="/images/war.png" alt="sample 1" size="max-w-lg" alignment="mx-auto" />
 
@@ -14,6 +15,8 @@
   porttitor. Tortor consequat id porta nibh. Tortor condimentum lacinia quis vel eros donec ac odio.
   Elementum sagittis vitae et leo duis ut diam quam nulla. Vel turpis nunc eget lorem.
 </P>
+
+
 <P class="px-8 py-4">
   Aliquet porttitor lacus luctus accumsan. Ac orci phasellus egestas tellus rutrum tellus. Non odio
   euismod lacinia at quis risus sed. Nam libero justo laoreet sit amet cursus sit amet. Arcu odio ut

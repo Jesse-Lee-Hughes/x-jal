@@ -4,7 +4,6 @@
 	import { page } from '$app/stores';
 	import { onMount } from 'svelte';
 	import {
-		DarkMode,
 		Navbar,
 		NavBrand,
 		NavLi,
@@ -18,7 +17,6 @@
 		CloseButton,
 		SidebarDropdownWrapper
 	} from 'flowbite-svelte';
-	import { Cog } from 'svelte-heros-v2';
 	import { sineIn } from 'svelte/easing';
 
 	let transitionParams = {
@@ -59,8 +57,6 @@
 	};
 	$: activeUrl = $page.url.pathname;
 	let spanClass = 'pl-2 self-center text-md text-gray-900 whitespace-nowrap dark:text-white';
-	let darkmodebtn =
-		'text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-lg p-2.5 fixed right-2 top-12  md:top-3 md:right-2 z-50';
 	let divClass = 'w-full md:block md:w-auto pr-8';
 	let ulClass = 'flex flex-col p-4 mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium';
 </script>
@@ -70,21 +66,17 @@
 <Navbar let:hidden let:toggle>
 	<NavHamburger on:click={toggleDrawer} btnClass="ml-3 lg:hidden" />
 	<NavBrand href="/" class="lg:ml-64">
-		<Cog />
 		<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white pl-4">
 			X-JAL
 		</span>
 	</NavBrand>
 	<NavHamburger on:click={toggle} />
 	<NavUl {hidden} {divClass} {ulClass}>
-		<NavLi href="/">Home</NavLi>
-		<NavLi href="/pages/about">About</NavLi>
-		<NavLi href="https://github.com/ju-juu"
+		<NavLi href="https://github.com/ju-juu/x-jal"
 			>GitHub</NavLi
 		>
 	</NavUl>
 </Navbar>
-<DarkMode btnClass={darkmodebtn} />
 <Drawer
 	transitionType="fly"
 	{backdrop}
