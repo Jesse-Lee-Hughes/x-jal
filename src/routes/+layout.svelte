@@ -93,16 +93,6 @@
 	<Sidebar asideClass="w-54">
 		<SidebarWrapper divClass="overflow-y-auto py-4 px-3 rounded dark:bg-gray-800">
 			<SidebarGroup>
-				<SidebarItem label="Home" href="/" on:click={toggleSide} active={activeUrl === `/`} />
-				{#each data.pages as { meta, path }}
-					<SidebarItem
-						label={meta.title}
-						href={`/pages/${path}`}
-						{spanClass}
-						on:click={toggleSide}
-						active={activeUrl === `/pages/${path}`}
-					/>
-				{/each}
 				<SidebarDropdownWrapper label="Team">
 					{#each data.team as { meta, path }}
 						<SidebarItem

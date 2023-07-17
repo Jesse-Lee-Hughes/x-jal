@@ -4,7 +4,7 @@ title: 'Diablo 4'
 ---
 
 <script>
-  import { Img, Heading, P } from 'flowbite-svelte';
+  import { Img, Heading, P, Blockquote } from 'flowbite-svelte';
 </script>
 
 <Img src="/images/mother.png" alt="sample 1" size="max-w-lg" alignment="mx-auto" />
@@ -12,11 +12,27 @@ title: 'Diablo 4'
 <Heading class="p-8" tag="h1" customSize="text-3xl">{title}</Heading>
 
 <P class="px-8 py-4">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet cursus sit amet dictum sit. Quis enim lobortis scelerisque fermentum dui faucibus in. Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. Ipsum dolor sit amet consectetur adipiscing elit. Euismod nisi porta lorem mollis aliquam ut porttitor. Tortor consequat id porta nibh. Tortor condimentum lacinia quis vel eros donec ac odio. Elementum sagittis vitae et leo duis ut diam quam nulla. Vel turpis nunc eget lorem.
+
+Diablo 4, the highly anticipated installment in the beloved action role-playing game series, immerses players in a
+dark and twisted gothic tale. Set in the sinister realm of Sanctuary, the game invites players to embark on a chilling
+and immersive journey. The narrative of Diablo 4 delves deep into the abyss, exploring themes of corruption, despair,
+and the eternal battle between light and darkness.
+
 </P>
 <P class="px-8 py-4">
-Aliquet porttitor lacus luctus accumsan. Ac orci phasellus egestas tellus rutrum tellus. Non odio euismod lacinia at quis risus sed. Nam libero justo laoreet sit amet cursus sit amet. Arcu odio ut sem nulla pharetra diam sit amet nisl. Vulputate mi sit amet mauris commodo quis imperdiet. Malesuada nunc vel risus commodo viverra. Eget nulla facilisi etiam dignissim diam quis enim. Hac habitasse platea dictumst quisque. Ultrices gravida dictum fusce ut placerat orci nulla pellentesque dignissim.
+In Diablo 4, players will encounter a grim and foreboding world, shrouded in atmospheric visuals and haunting 
+environments. The game's stunning graphics and attention to detail bring the gothic aesthetic to life, painting a 
+macabre and sinister backdrop for players to explore. From desecrated cathedrals to ancient crypts, each location in 
+Diablo 4 is meticulously crafted to create an atmosphere of dread and unease.
 </P>
+
 <P class="px-8 py-4">
-Nec feugiat in fermentum posuere urna nec tincidunt praesent. Nulla pharetra diam sit amet nisl suscipit adipiscing bibendum est. Eu turpis egestas pretium aenean pharetra magna. Ultricies lacus sed turpis tincidunt id. Urna nec tincidunt praesent semper feugiat nibh. Aliquam etiam erat velit scelerisque in dictum non consectetur. Suspendisse in est ante in nibh mauris cursus mattis molestie. Facilisi nullam vehicula ipsum a. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi. Libero justo laoreet sit amet cursus sit amet.
+As players venture through Diablo 4's treacherous landscapes, they will confront a diverse cast of malevolent creatures
+and demonic adversaries. From hordes of grotesque monsters to powerful demonic lords, the game presents formidable 
+challenges that demand strategic thinking and skillful combat. The dark and twisted gothic story of Diablo 4, combined 
+with its immersive visuals and intense gameplay, promises an unforgettable journey into the depths of darkness and the 
+pursuit of redemption.
 </P>
+
+<Blockquote class="px-8 py-4">"By three they come. By three, thy way opens. By the blood of the willing, we call thee home. Hail, 
+Daughter of Hatred. Creator of Sanctuary. Hail...Lilith."</Blockquote>

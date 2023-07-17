@@ -8,11 +8,41 @@ title: 'Jesse'
 </script>
 
 <Heading class="p-8" tag="h1" customSize="text-3xl">{title}</Heading>
-<Blockquote class="px-8 py-4">Stay a while.. and listen.</Blockquote>
+<Blockquote class="px-8 py-4">
+"Nothing Isn't Better Or Worse Than Anything. Nothing Is Just Nothing."</Blockquote>
 
 <P class="px-8 py-4">
-I've been an avid video gamer from an early age. Starting with Super Mario and Tetris on Nintendo's Gameboy. From this I graduated onto PC gameing, where I fell in love with Heroes of Might & Magic 2 & 3, Civilzations and Terminal Velocity
+Jesse, a valued member of our gaming community, has been passionate about video games since a young age. 
+He has been an avid gamer, starting with classics like Super Mario and Tetris on Nintendo's Gameboy, 
+which ignited his love for gaming. As Jesse transitioned to PC gaming, he discovered his fondness for strategy games 
+such as Heroes of Might & Magic 2 & 3 and Civilizations. These titles captivated Jesse's imagination 
+and further fueled his enthusiasm for immersive gaming experiences.
 </P>
+
+<p class="px-8 py-4">
+After delving into the realm of strategy games, Jesse's gaming journey took an exciting turn towards the realm of RPGs. 
+He discovered a newfound love for immersive experiences in games like Diablo 2, Diablo 3, and the highly anticipated 
+Diablo 4. These action-packed RPGs with their captivating storytelling and intense gameplay became a significant part 
+of Jesse's gaming repertoire.
+</p>
+
+<p class="px-8 py-4">
+In addition to the Diablo series, Jesse also immersed himself in the vast worlds of World of Warcraft and StarCraft. 
+World of Warcraft's sprawling landscapes and rich lore provided him with countless adventures alongside fellow players, 
+as he delved into dungeons, engaged in epic PvP battles, and tackled challenging raids. On the other hand, StarCraft 
+allowed Jesse to showcase his strategic prowess, engaging in intense real-time battles and experiencing the thrill of 
+interstellar warfare.
+</p>
+
+<p class="px-8 py-4">
+Jesse's foray into RPGs and the immersive worlds of Diablo, World of Warcraft, and StarCraft opened up new dimensions 
+of gameplay for him. These games not only offered thrilling and dynamic experiences but also fostered a sense of 
+community as he connected with fellow players and embarked on epic quests together. Jesse's exploration of these RPG 
+titles highlights his ability to adapt and find enjoyment in diverse gaming genres, making him a well-rounded and 
+versatile member of our gaming community.
+</p>
+
+
 <div class="container mx-auto px-8 py-4 lg:px-32 lg:pt-24">
   <div class="-m-1 flex flex-wrap md:-m-2">
     <div class="flex w-1/2 flex-wrap">
