@@ -67,14 +67,13 @@
 	<NavHamburger on:click={toggleDrawer} btnClass="ml-3 lg:hidden" />
 	<NavBrand href="/" class="lg:ml-64">
 		<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white pl-4">
-			X-JAL
+			X-JAL - It's about to get spicy.
 		</span>
 	</NavBrand>
 	<NavHamburger on:click={toggle} />
 	<NavUl {hidden} {divClass} {ulClass}>
-		<NavLi href="https://github.com/ju-juu/x-jal"
-			>GitHub</NavLi
-		>
+		<NavLi>Home</NavLi>
+		<NavLi href="https://github.com/ju-juu/x-jal">GitHub</NavLi>
 	</NavUl>
 </Navbar>
 <Drawer

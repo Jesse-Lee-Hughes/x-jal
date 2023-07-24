@@ -2,11 +2,9 @@
     import { Img, Heading, P, Blockquote } from 'flowbite-svelte';
   </script>
   
-  
-<Img src="/images/war.png" alt="sample 1" size="max-w-lg" alignment="mx-auto" class="rounded-lg" />
-
-<Heading class="p-8" tag="h1" customSize="text-3xl">X-JAL</Heading>
-<Blockquote class="px-8 py-4">Because second is basically first.</Blockquote>
+<br>
+<Blockquote class="px-8 py-4">Because second is basically first....</Blockquote>
+<Img src="/images/juan.jpeg" alt="sample 1" size="max-w-lg" alignment="mx-auto" class="rounded-lg" />
 <P class="px-8 py-4">
   The X-Jal gaming community is a vibrant and widespread group of gamers located throughout Australia. It brings
   together individuals from diverse backgrounds, fostering a sense of inclusivity and camaraderie.

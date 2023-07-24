@@ -1,6 +1,6 @@
 ---
 dir: team
-title: 'Jesse'
+title: 'Jesse (Juju)'
 ---
 
 <script>
@@ -10,8 +10,8 @@ title: 'Jesse'
 <Heading class="p-8" tag="h1" customSize="text-3xl">{title}</Heading>
 <Blockquote class="px-8 py-4">
 "Nothing Isn't Better Or Worse Than Anything. Nothing Is Just Nothing."</Blockquote>
-
 <P class="px-8 py-4">
+
 Jesse, a valued member of our gaming community, has been passionate about video games since a young age. 
 He has been an avid gamer, starting with classics like Super Mario and Tetris on Nintendo's Gameboy, 
 which ignited his love for gaming. As Jesse transitioned to PC gaming, he discovered his fondness for strategy games 
