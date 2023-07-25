@@ -15,7 +15,7 @@ delivering clutch victories. Moses, with unwavering determination and remarkable
 with triumph and resilience.
 </P>
 
-<Img src="/images/wz2.webp" alt="sample 1" size="max-w-lg" alignment="mx-auto"  class="rounded-lg"/>
+<Img src="/images/wz2.jpg" alt="sample 1" size="max-w-lg" alignment="mx-auto"  class="rounded-lg"/>
 
 <P class="px-8 py-4">
 As players drop into the vast and dynamic world of Warzone, they must navigate treacherous terrain, engage in 
