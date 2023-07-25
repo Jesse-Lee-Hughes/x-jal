@@ -1,6 +1,6 @@
 ---
 dir: team
-title: 'John (Ecirmada)'
+title: 'Jono (Ecirmada)'
 ---
 
 <script>
