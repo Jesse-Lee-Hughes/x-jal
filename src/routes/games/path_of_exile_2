@@ -1,0 +1,6 @@
+dir	title
+games
+Call of Duty
+<script> import { Img, Heading, P, Blockquote } from 'flowbite-svelte'; </script>
+{title}
+
